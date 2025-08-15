@@ -13,21 +13,20 @@ A Flutter application that fetches and displays news articles using the NewsAPI.
 
 ## 📸 Screenshots
 
-## 🏗 Architecture
-
+🏗 Architecture  
 This project follows Clean Architecture principles with the following structure:
 
 lib/
 ├── blocs/
 │   └── cubit/
-│       └── news_cubit.dart          # State management
+│       └── news_cubit.dart        # State management
 ├── models/
-│   └── news_model.dart              # Data models
+│   └── news_model.dart            # Data models
 ├── screens/
-│   └── newsScreen.dart              # UI screens
+│   └── newsScreen.dart            # UI screens
 ├── widgets/
-│   └── news_card.dart               # Reusable widgets
-└── main.dart                        # App entry point
+│   └── news_card.dart             # Reusable widgets
+└── main.dart                      # App entry point
 
 ## 📁 Project Structure Details
 
