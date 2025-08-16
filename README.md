@@ -11,11 +11,10 @@ A Flutter application that fetches and displays news articles using the NewsAPI.
 - ⚡️ State Management: BLoC/Cubit pattern for efficient state management
 - 🔄 HTTP Requests: Dio integration for robust API calls
 
-## 📸 Screenshots
-
-🏗 Architecture  
+## 🏗 Architecture  
 This project follows Clean Architecture principles with the following structure:
 
+```text
 lib/
 ├── blocs/
 │   └── cubit/
@@ -27,6 +26,7 @@ lib/
 ├── widgets/
 │   └── news_card.dart             # Reusable widgets
 └── main.dart                      # App entry point
+```
 
 ## 📁 Project Structure Details
 
